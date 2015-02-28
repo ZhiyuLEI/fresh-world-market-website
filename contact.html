@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>	
+     <link rel="stylesheet" type="text/css"  href="css/styles.css"/>
+    
+	<script type="text/javascript">
+      function changeCSS(cssFile) {
+ 
+        var oldlink = document.getElementsByTagName("link").item(0);
+ 
+        var newlink = document.createElement("link")
+        newlink.setAttribute("rel", "stylesheet");
+        newlink.setAttribute("type", "text/css");
+        newlink.setAttribute("href", cssFile);
+ 
+        document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+      }
+    </script>
+
+     <!--Serch Engine Optimizition for the brower use-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="cache" />
+	
+    <!-- InstanceBeginEditable name="doctitle" -->
+	<title>Contact Us | Fresh World Market</title>
+	<!-- InstanceEndEditable -->
+	
+
+<!-- InstanceBeginEditable name="head" -->
+	<script type="text/javascript">
+    function MM_validateForm() { 
+      if (document.getElementById){
+        var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+        for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+          if (val) { nm=val.name; if ((val=val.value)!="") {
+            if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+              if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+            } else if (test!='R') { num = parseFloat(val);
+              if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+              if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+                min=test.substring(8,p); max=test.substring(p+1);
+                if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+          } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is a required field.\n'; }
+        } if (errors) alert('The following error(s) occurred:\n'+errors);
+        document.MM_returnValue = (errors == '');
+    } }
+    </script>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<div id="wrapper">      <!--wrapper div containing all of the other divs below-->
+	
+		<div id="top"><!-- InstanceBeginEditable name="top" -->
+        <a href="#" onclick="changeCSS('css/styles.css');">STYLE 1</a> 
+        <a href="#" onclick="changeCSS('css/styles2.css');">STYLE 2</a>
+		<!-- InstanceEndEditable --></div>
+		
+		<div id="banner">    <!--constraint the design in the particular area in the browser-->
+		     <img src="images/banner.jpg" />
+	</div>
+		
+		<div id="subbanner">
+		     <img src="images/farmers-market-collage.jpg" />
+		</div>
+		
+		<div id="topnav">
+			<ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>                 
+                 <li><a href="gallery.html">Gallery</a></li>
+                 <li><a href="events.html">Events</a></li>                 
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+		</div>
+						
+        <div id="content"><!-- InstanceBeginEditable name="content" -->
+            <h1>Contact Us</h1>
+            <p> Fresh World Market is a local, regionally possessed and managed, independent retail grocery store. Our stores are throughout the Mt Albert suburb. Our stores are your ideal solution for a complete collection food store. We have a large selection of groceries, iced up foods, fresh fruit and vegetables, dairy products and fresh meat. We are here to serve you - visit us today. </p>
+            <br>
+            <br>
+            <br>
+            
+             <form action="" method="post" name="Fresh World Contact Form" onSubmit="MM_validateForm('name','','R','telephone','','RinRange10000:99999','email','','RisEmail','comments','','R');return document.MM_returnValue">
+                <ol>
+                  <li><label for="name">Name</label>
+                  <input type="text" name="name" id="name"></li>
+                  
+                  <li><label for="telephone">Telephone</label>
+                  <input type="text" name="telephone" id="telephone"></li>
+                  
+                  <li><label for="email">Email</label>
+                  <input type="text" name="email" id="email"></li>
+                  
+                  <li><label for="comments">Comments</label>
+                  <textarea name="comments" id="comments" cols="45" rows="5"></textarea></li>
+                  
+                  <li><input name="submit" type="submit" class="submit" id="submit" value="Submit"></li>
+                </ol>  
+            </form>
+            
+        <!-- InstanceEndEditable -->
+            <div id="social-media">
+                     <ul>
+                          <li><img src="images/icons/connect.png" /></li>
+                          <li><a href="https://www.facebook.com"><img src="images/icons/facebook_32.png" />
+                              </a></li>
+                          <li><a href="https://www.flickr.com"><img src="images/icons/flickr_32.png" /></a></li>                          <li><a href="https://twitter.com"><img src="images/icons/twitter_32.png" /></a></li>
+                          <li><a href="http://www.yelp.co.nz"><img src="images/icons/yelp_32.png" /></a></li>                          
+                     </ul>
+                </div>
+            
+        </div>
+            
+        <div id="rightside"><!-- InstanceBeginEditable name="sidebar-top" -->
+            <h2>Special Buys Today</h2>
+            <p> NZ Tomatoes $1.99 KG <br>
+                NZ Oranges  $0.99 KG <br>
+                NZ Kiwifruits $1.25 KG </p>
+        <!-- InstanceEndEditable -->
+            <h2> Calendar </h2>
+             <a href="events.html"><img src="images/calendar.jpg" alt="Calendar" /></a>
+		    <p>Click Calendar To Go To The Events Page</p>
+		    <!-- InstanceBeginEditable name="sidebar-bottom" -->
+             <h2>Weekly Special Buys</h2>
+             <p> NZ Grapefruits $2.99 KG <br>
+                 Kyoho Grapes  $2.99 KG <br>
+                 NZ Lemons $3.99 KG </p>
+             <!-- InstanceEndEditable --></div>
+	
+		<div id="footer">
+	        <p>&copy; Copyright 2014 Fresh World Market </p>
+		</div>
+        
+   </div>
+
+</body>
+<!-- InstanceEnd --></html>
+
+
